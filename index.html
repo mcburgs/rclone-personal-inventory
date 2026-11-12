@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Information about a personal, locally operated rclone Google Drive inventory and backup integration.">
+  <title>Rclone Personal Inventory</title>
+  <style>
+    body { margin: 0; color: #243047; background: #f6f8fb; font: 17px/1.65 system-ui, -apple-system, Segoe UI, sans-serif; }
+    main { max-width: 720px; padding: 64px 24px; margin: auto; }
+    h1 { color: #14243e; line-height: 1.18; font-size: clamp(2rem, 5vw, 2.8rem); }
+    h2 { margin-top: 2rem; color: #14243e; font-size: 1.2rem; }
+    a { color: #145aa5; }
+    .tag { color: #416283; font-size: 0.85rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; }
+    footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #d5dce7; font-size: .9rem; color: #536278; }
+  </style>
+</head>
+<body>
+  <main>
+    <p class="tag">Personal-use desktop integration</p>
+    <h1>Rclone Personal Inventory</h1>
+    <p>This is an informational page for a privately operated <a href="https://rclone.org/">rclone</a> connection to Google Drive. The application is used by its owner to inventory files, compare file metadata and checksums, and maintain personal backups.</p>
+    <h2>How it works</h2>
+    <p>Rclone runs locally on the owner's computer. Google OAuth is used to authorize access to the owner's Google Drive. Read-only access is used for inventory and verification. A separate, deliberately authorized connection may use access limited to files created or opened by the application for backup operations.</p>
+    <p>This website is not the application itself. It has no sign-in form, does not request Google account access, and does not receive or store Google Drive files, credentials, or file listings.</p>
+    <h2>Privacy</h2>
+    <p>Read the <a href="privacy.html">Privacy Policy</a> for details on Google user data access, use, storage, and sharing.</p>
+    <footer>
+      This is a personal, non-commercial setup and is not affiliated with or endorsed by Google or the rclone project.
+    </footer>
+  </main>
+</body>
+</html>
